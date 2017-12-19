@@ -87,3 +87,5 @@ create table THEME
 	name_theme INT
 )
 ;
+
+ тестовая запись
