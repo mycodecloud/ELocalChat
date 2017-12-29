@@ -20,7 +20,7 @@
 
 1. Добавление сообщения в тему и прикрепление файла
 
-INSERT INTO MESSAGE (id_theme, login, message)
+INSERT INTO MESSAGE (id_theme, login, main.java.message)
 SELECT THEME.id_theme,
        'RU9209',
        'тестовое сообщение 2'
@@ -75,7 +75,7 @@ create table MESSAGE
 		primary key
 		 autoincrement,
 	login TEXT,
-	message TEXT
+	main.java.message TEXT
 )
 ;
 

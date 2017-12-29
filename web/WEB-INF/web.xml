@@ -5,11 +5,11 @@
          version="3.1">
     <servlet>
         <servlet-name>message</servlet-name>
-        <servlet-class>message</servlet-class>
+        <servlet-class>main.java.message</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>message</servlet-name>
-        <url-pattern>/message</url-pattern>
+        <url-pattern>/main.java.message</url-pattern>
     </servlet-mapping>
 </web-app>

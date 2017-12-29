@@ -1,4 +1,4 @@
-/**
+package main.java; /**
  * Created by e-user on 20.11.17.
  */
 import java.io.*;
